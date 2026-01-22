@@ -1,0 +1,15 @@
+body.transition-page {
+    background-color: brown;
+    margin: 0;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.transition-page .transition-page{
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5em;
+}
