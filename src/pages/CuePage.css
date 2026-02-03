@@ -1,0 +1,115 @@
+.cue-page {
+    background: #f6f7fa;
+    color: #2d3a8c;
+  }
+  
+  .cue-hero {
+    height: 100vh;
+    max-width: 1728px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cue-hero-content {
+    text-align: center;
+  }
+  
+  .cue-hero h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+  
+  .cue-subline {
+    margin-top: 16px;
+    font-size: 18px;
+    opacity: 0.8;
+  }
+  
+  .cue-scroll-hint {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .cue-arrow {
+    font-size: 20px;
+    opacity: 0.5;
+  }
+  
+  .cue-primary-button {
+    background: #1ba784;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 12px;
+    font-size: 14px;
+  }
+  
+  .cue-secondary-button {
+    background: #2d3a8c;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 12px;
+    margin-top: 16px;
+  }
+  
+  /* SECTIONS */
+  .cue-section {
+    max-width: 1728px;
+    margin: 120px auto;
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 80px;
+  }
+  
+  .cue-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+  
+  .cue-grid.reverse {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .cue-text h2 {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+  
+  .cue-text p {
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+  
+  .cue-more {
+    text-align: center;
+    padding: 120px 0;
+  }
+  
+  .cue-cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+  }
+  
+  .cue-card {
+    background: white;
+    padding: 32px;
+    border-radius: 16px;
+    width: 280px;
+  }
+  
+  .cue-footer-line {
+    margin-top: 48px;
+    opacity: 0.6;
+  }

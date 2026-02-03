@@ -1,14 +1,21 @@
 import './Transition.css';
+import { Navbar } from '../components/Navbar/Navbar';
+import { useNavigate } from 'react-router-dom';
 
-export function Transition() {
+export default function Transition() {
+  const navigate = useNavigate();
+  
   return (
     <>
-      <div className="transition-page">
-        <h1>Transition Page</h1>
-        <p>This is the transition page content.</p>
+      <Navbar />
+      <div
+      className="transition-wrapper"
+      onClick={() => navigate("/cue")}
+      >
+      <main className="home">
+        <h1>Wir haben verlernt, hinzusehen.</h1>
+      </main>
       </div>
     </>
   );
 }
-
-export default Transition;

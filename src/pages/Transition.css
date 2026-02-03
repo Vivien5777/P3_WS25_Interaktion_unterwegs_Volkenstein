@@ -1,15 +1,23 @@
-body.transition-page {
-    background-color: brown;
-    margin: 0;
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+.home {
+  min-height: calc(100vh - 90px); /* Angepasst damit Navbar Platz hat */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
-.transition-page .transition-page{
-  color: white;
-  text-align: center;
-  padding: 2rem;
+.home h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #2f3b82;
 }
 
-h1 {
-  font-size: 2.5em;
+.transition-wrapper {
+  width: 100vw;
+  height: 100vh;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f6f7fa;
 }

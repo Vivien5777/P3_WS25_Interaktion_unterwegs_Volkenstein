@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css'
 import { Link } from 'react-router-dom';
+import {Navbar} from './components/Navbar/Navbar.jsx'
 
 
 function App() {
   return (
-    <div>
+    <>
+    <Navbar></Navbar>
       <h1>Projekt Test</h1>
-      <Link to="/transition"/*transition steht nur als Test da*/>Try Cue</Link> 
-    </div>
+      <Link to="/vibrationblurred">Try Cue</Link> 
+    </>
   );
 }
 
