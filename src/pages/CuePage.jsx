@@ -25,7 +25,7 @@ export default function CuePage() {
           <h1>
             Das Leben passiert,
             <br />
-            während du wegschaut.
+            während du wegschaust.
           </h1>
           <p className="cue-subline">Cue holt dich zurück.</p>
 
