@@ -8,8 +8,11 @@ function App() {
   return (
     <>
     <Navbar></Navbar>
-      <h1>Projekt Test</h1>
-      <Link to="/vibrationblurred">Try Cue</Link> 
+      <Link to="/vibrationblurred" className="cue-link">
+      <div className="wearable-trigger">
+        Try Cue
+      </div>
+      </Link> 
     </>
   );
 }
