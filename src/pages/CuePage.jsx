@@ -46,7 +46,6 @@ export default function CuePage() {
         </div>
       </section>
 
-      {/* GEÄNDERT: Hier wird der Anker (ref) gesetzt */}
        <section className="cue-section" ref={firstSectionRef}>
           <div className="cue-grid">
             <div className="cue-visual-placeholder">
@@ -88,7 +87,6 @@ export default function CuePage() {
         </div>
       </section>
 
-      {/* ... oberer Teil bleibt gleich ... */}
 
       <section className="cue-more">
         <h2>Erfahren Sie mehr</h2>
@@ -126,8 +124,7 @@ export default function CuePage() {
 
       {/* FOOTER START */}
       <footer className="cue-footer-wrapper">
-        
-        {/* OBERER GRAUER BEREICH */}
+
         <div className="cue-footer-main">
           <div className="cue-footer-inner">
             <div className="cue-footer-content">
@@ -163,7 +160,7 @@ export default function CuePage() {
           </div>
         </div>
 
-        {/* UNTERER DUNKLER BEREICH */}
+
         <div className="cue-footer-bottom-bar">
           <div className="cue-footer-inner">
             <div className="cue-footer-bottom-content">

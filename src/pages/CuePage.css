@@ -4,7 +4,7 @@
     overflow-x: hidden;
   }
   
-.cue-hero {
+  .cue-hero {
     min-height: 100vh;
     max-width: 1440px;
     margin: 0 auto;
@@ -13,14 +13,14 @@
     padding: 80px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);  
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
   }
   
-.cue-hero-content {
+  .cue-hero-content {
     text-align: center;
   }
   
-.cue-hero h1 {
+  .cue-hero h1 {
     font-size: 48px;
     font-weight: 600;
     line-height: 1.2;
@@ -65,7 +65,6 @@
     cursor: pointer;
   }
   
-  /* SECTIONS */
   .cue-section {
     max-width: 1440px;
     margin: 120px auto;
@@ -85,10 +84,10 @@
     grid-template-columns: 1fr 1fr;
   }
   
-  .cue-text{
+  .cue-text {
     text-align: left;
   }
-
+  
   .cue-text h2 {
     font-size: 32px;
     margin-bottom: 24px;
@@ -112,58 +111,54 @@
     text-align: left;
   }
   
-.cue-card {
+  .cue-card {
     background: white;
     padding: 32px;
     border-radius: 16px;
     width: 280px;
   }
-
-.card-icon {
-         font-size: 24px;
-         background: #eff1f7;
-         color: #27357e;
-         width: 48px;
-         height: 48px;
-         border-radius: 50%;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-         margin-bottom: 20px;
-       }
   
-        .cue-footer-wrapper {
-           width: 100%;
-           margin-top: 4rem;
-           display: flex;
-           flex-direction: column;
-         }
-        
-         /* NEU: Teil 1 - Oben (Hell) */
-         .cue-footer-main {
-           background-color: #eef1f6; /* Hellgrau/Bläulich aus dem Design */
-           color: #27357e; /* Dunkle Schrift für Kontrast */
-           padding: 4rem 0; /* Innenabstand */
-           width: 100%;
-         }
-        
-         /* NEU: Teil 2 - Unten (Dunkel) */
-         .cue-footer-bottom-bar {
-           background-color: #27357e; /* Dein Dunkelblau */
-           color: rgba(255, 255, 255, 0.8); /* Weiße Schrift, leicht transparent */
-           padding: 1.5rem 0;
-           width: 100%;
-           font-size: 0.75rem;
-         }
+  .card-icon {
+    font-size: 24px;
+    background: #eff1f7;
+    color: #27357e;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
   
-  /* centered content */
+  .cue-footer-wrapper {
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cue-footer-main {
+    background-color: #eef1f6;
+    color: #27357e;
+    padding: 4rem 0;
+    width: 100%;
+  }
+  
+  .cue-footer-bottom-bar {
+    background-color: #27357e;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 1.5rem 0;
+    width: 100%;
+    font-size: 0.75rem;
+  }
+  
   .cue-footer-inner {
-    max-width: 1440px; 
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 80px;
   }
   
-  /* columns */
   .cue-footer-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
@@ -189,26 +184,26 @@
     color: #162A6B;
     cursor: pointer;
   }
-
+  
   .cue-footer-column li:hover {
     text-decoration: underline;
   }
   
   .cue-footer-bottom-content {
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: space-between;
-       align-items: center;
-       gap: 1rem;
-       font-weight: 700;
-     }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 700;
+  }
   
   .cue-footer-legal {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
   }
-
+  
   .cue-footer-legal span {
     cursor: pointer;
     text-decoration: none;
@@ -218,7 +213,7 @@
   .cue-footer-legal span:hover {
     color: white;
   }
-
+  
   .cue-footer-line {
     margin-top: 60px;
     margin-bottom: 0;

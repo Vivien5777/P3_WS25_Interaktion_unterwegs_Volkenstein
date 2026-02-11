@@ -6,13 +6,12 @@ import CuriousBackground from '/Users/vivienvolkenstein/Documents/P3_WS25_Intera
 import CircleBackground from '/Users/vivienvolkenstein/Documents/P3_WS25_Interaktion_unterwegs_Volkenstein/P3_WS25_Interaktion_unterwegs_Volkenstein/Circle.PNG';  // Passe den Pfad an!
 
 function Curious() {
-  // Zustand: Hovert der User über der Person?
   const [isHovering, setIsHovering] = useState(false);
 
   return (
     <>
       <Navbar />
-      
+          {/* Ab hier mit KI erstellt */}
       <div className="scene-wrapper">
         
         {/* Ebene 1: Das normale Bild (Immer sichtbar) */}
@@ -21,7 +20,7 @@ function Curious() {
           alt="Szene Scharf" 
           className="bg-image sharp" 
         />
-
+ 
         {/* Ebene 2: Das Effekt-Bild (Nur sichtbar, wenn isHovering true ist) */}
         <img 
           src={CircleBackground} 
@@ -38,7 +37,9 @@ function Curious() {
         >
           {/* Leer, da unsichtbare Klickfläche */}
         </Link>
-
+      <div className="wearable-look">
+        Look around
+      </div> 
       </div>
     </>
   );

@@ -9,11 +9,11 @@ export function Funktionsweise() {
       xmlns="http://www.w3.org/2000/svg"
       style={{ display: "block" }}
     >
-      {/* Hintergrund (Transparent statt Schwarz) */}
+      
       <rect width="800" height="500" fill="transparent" />
 
       <defs>
-        {/* Grid Muster (hellgrau) */}
+       
         <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
           <path
             d="M 40 0 L 0 0 0 40"
@@ -23,7 +23,7 @@ export function Funktionsweise() {
           />
         </pattern>
 
-        {/* Glow Filter für den Leuchteffekt */}
+      
         <filter id="glow">
           <feGaussianBlur stdDeviation="3" result="coloredBlur" />
           <feMerge>
@@ -32,7 +32,7 @@ export function Funktionsweise() {
           </feMerge>
         </filter>
 
-        {/* Gradient für das Signal (Kupfer zu Transparent) */}
+    
         <linearGradient id="signalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop
             offset="0%"
@@ -49,10 +49,8 @@ export function Funktionsweise() {
         </linearGradient>
       </defs>
 
-      {/* Grid Hintergrund anwenden */}
       <rect width="800" height="500" fill="url(#grid)" />
 
-      {/* --- SENDER (Links) - Kupferfarben --- */}
       <g transform="translate(150, 250)">
         <circle cx="0" cy="0" r="15" fill="#EF7B00">
           <animate
@@ -82,7 +80,6 @@ export function Funktionsweise() {
         </text>
       </g>
 
-      {/* --- SIGNAL-PFAD (Kurve) --- */}
       <path
         d="M 150 250 Q 400 150 550 250"
         fill="none"
@@ -107,17 +104,15 @@ export function Funktionsweise() {
         />
       </path>
 
-      {/* --- EMPFÄNGER (Rechts) --- */}
       <g transform="translate(550, 250)">
-        {/* Passive Kreise (andere Nutzer) */}
+        
         <circle cx="40" cy="-60" r="10" fill="#9ca3af" opacity="0.5" />
         <circle cx="60" cy="30" r="10" fill="#9ca3af" opacity="0.5" />
         <circle cx="-30" cy="50" r="10" fill="#9ca3af" opacity="0.5" />
 
-        {/* Aktiver Empfänger (Der, der das Signal bekommt) */}
         <g filter="url(#glow)">
           <circle cx="0" cy="0" r="15" fill="#162A6B">
-            {/* Blinkt kurz in Brand-Blau auf, wenn Signal ankommt */}
+            
             <animate
               attributeName="fill"
               values="#555555;#27357e;#555555"
@@ -156,9 +151,7 @@ export function Funktionsweise() {
         </text>
       </g>
 
-      {/* --- ZUSÄTZLICHE LINIE (Optional, falls gewünscht) --- */}
-      {/* Ich habe die Farbe hier auch angepasst, damit sie zum Design passt.
-          Falls du nur die Kurve willst, kannst du diesen <line> Block löschen. */}
+
       <line
         x1="165"
         y1="250"

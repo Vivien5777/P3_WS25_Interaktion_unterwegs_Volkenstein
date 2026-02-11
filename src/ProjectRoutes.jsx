@@ -6,7 +6,6 @@ import CuePage from './pages/CuePage';
 import VibrationBlurred from './pages/VibrationBlurred';
 import Curious from './pages/Curious';
 import { useEffect } from 'react';
-/*import { Navbar } from './components/Navbar/Navbar';*/
 
 function BodyClassManager() {
     const location = useLocation();

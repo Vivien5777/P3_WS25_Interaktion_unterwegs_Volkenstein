@@ -1,66 +1,39 @@
-/* App.css */
-
-/* 1. Hintergrundbild fixieren */
 body.ausgangslage {
-  /* Bildpfad prüfen - Slash am Anfang ist wichtig für Vite public folder */
-  background-image: url(../Ausgangslage.JPG); 
-  background-size: cover;      /* Bild füllt den Screen */
+  background-image: url(../Ausgangslage.JPG);
+  background-size: cover;
   background-repeat: no-repeat;
-  
-  /* WICHTIG: Das verankert das Bild UNTEN in der Mitte. 
-     So bleibt der Arm immer sichtbar, auch auf Handys. */
-  background-position: center bottom; 
-  
-  /* Damit keine Scrollbalken entstehen */
+  background-position: center bottom;
   height: 100vh;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
-/* 2. Den Link stylen und positionieren */
 .cue-link {
-  position: absolute; /* Löst den Link aus dem normalen Textfluss */
-  
-  /* Positionierung: Experimentiere mit dem %-Wert für bottom! */
-  bottom: 12%;        
+  position: absolute;
+  bottom: 12%;
   left: 50%;
-  
-  /* Zentriert den Link exakt horizontal */
-  transform: translateX(-50%); 
-  
-  /* Styling für den Text/Button */
-  color: #fff;         /* Weißer Text, damit man ihn auf dem dunklen Band sieht */
+  transform: translateX(-50%);
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2rem;
-  
-  /* Optional: Hintergrund, falls man es besser lesen soll */
-  /* background: rgba(0, 0, 0, 0.5); */
-  /* padding: 10px 20px; */
-  /* border-radius: 20px; */
-  
-  z-index: 10; /* Damit er sicher über dem Hintergrund liegt */
+  z-index: 10;
 }
 
-/* Optional: Ein kleiner Hover-Effekt */
 .cue-link:hover {
   opacity: 0.8;
-  transform: translateX(-50%) scale(1.05); /* Leichtes Vergrößern */
+  transform: translateX(-50%) scale(1.05);
 }
 
-
 .wearable-trigger {
-  z-index: 10; 
-  margin-bottom: -50%; 
-  rotate: -20deg; 
-  
-  /* Größe des Klickbereichs */
-  width: 90px; 
+  z-index: 10;
+  margin-bottom: -50%;
+  rotate: -20deg;
+  width: 90px;
   height: 140px;
-  border-radius: 30%; /* Macht es rund */
-  
-  cursor: pointer; /* Zeigt die Hand beim Drüberfahren */
+  border-radius: 30%;
+  cursor: pointer;
   text-align: center;
-  line-height: 140px; 
+  line-height: 140px;
   font-size: 16px;
   color: black;
 }

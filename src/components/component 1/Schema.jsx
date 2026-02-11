@@ -7,9 +7,8 @@ export function Schema() {
       width="100%"
       height="100%"
       xmlns="http://www.w3.org/2000/svg"
-      style={{ display: "block" }} // Verhindert kleine Abstände unten
+      style={{ display: "block" }} 
     >
-      {/* Hintergrund */}
       <rect width="800" height="500" fill="#f6f7fa" opacity="0.1" /> 
   
 
@@ -49,42 +48,40 @@ export function Schema() {
         </linearGradient>
       </defs>
 
-      {/* Grid Hintergrund */}
+
       <rect width="800" height="500" fill="url(#grid)" />
 
-      {/* Person 1 */}
+ 
       <g transform="translate(200, 150)">
         <path d="M 0 0 L -40 120 L 40 120 Z" fill="url(#grad1)" opacity="0.3" />
         <circle cx="0" cy="0" r="12" fill="#555555" />
       </g>
 
-      {/* Person 2 */}
+
       <g transform="translate(600, 200)">
         <path d="M 0 0 L -30 100 L 50 100 Z" fill="url(#grad1)" opacity="0.3" />
         <circle cx="0" cy="0" r="12" fill="#555555" />
       </g>
 
-      {/* Person 3 */}
+
       <g transform="translate(500, 380)">
         <path d="M 0 0 L -50 110 L 30 110 Z" fill="url(#grad1)" opacity="0.3" />
         <circle cx="0" cy="0" r="12" fill="#555555" />
       </g>
 
-      {/* Person 4 */}
+
       <g transform="translate(150, 400)">
         <path d="M 0 0 L -40 100 L 40 100 Z" fill="url(#grad1)" opacity="0.3" />
         <circle cx="0" cy="0" r="12" fill="#555555" />
       </g>
 
-      {/* YOU / Animation */}
       <g transform="translate(400, 250)">
-        {/* Äußerer Kreis Animation */}
         <circle
           cx="0"
           cy="0"
           r="60"
           fill="none"
-          stroke="#EF7B00" /* Deine Brand Color */
+          stroke="#EF7B00" 
           strokeWidth="2"
           opacity="0.8"
         >
@@ -104,7 +101,7 @@ export function Schema() {
           />
         </circle>
 
-        {/* Innerer Kreis Animation */}
+
         <circle
           cx="0"
           cy="0"
@@ -132,7 +129,7 @@ export function Schema() {
           />
         </circle>
 
-        {/* Mittelpunkt */}
+
         <circle cx="0" cy="0" r="15" fill="#EF7B00" />
 
         <text
